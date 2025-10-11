@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/chatgpt2.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "description": "AI-powered conversational assistant.",
+    "size": 80, 
+    "reviews": 1200000,
+    "ratingAvg": 4.9,
+    "downloads": 52000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 1030000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "./assets/tiktok1.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "Short video sharing social platform.",
+    "size": 120,
+    "reviews": 9000000,
+    "ratingAvg": 4.8,
+    "downloads": 39000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 8500000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "./assets/instagram.png",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "description": "Photo & video sharing social network.",
+    "size": 110,
+    "reviews": 8500000,
+    "ratingAvg": 4.7,
+    "downloads": 38000000,
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 8030000 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "./assets/facebook.png",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "description": "Social networking app.",
+    "size": 95,
+    "reviews": 8000000,
+    "ratingAvg": 4.6,
+    "downloads": 30000000,
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 28000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 330000 },
+      { "name": "5 star", "count": 7590000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "./assets/whatsapp.png",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "description": "Messaging & voice/video calls.",
+    "size": 70,
+    "reviews": 7500000,
+    "ratingAvg": 4.8,
+    "downloads": 27000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 7190000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "./assets/temu.png",
+    "title": "Temu",
+    "companyName": "PDD Holdings",
+    "description": "Shopping & deals platform.",
+    "size": 150,
+    "reviews": 3000000,
+    "ratingAvg": 4.5,
+    "downloads": 26000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 2740000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "./assets/capcut.png",
+    "title": "CapCut",
+    "companyName": "Bytedance",
+    "description": "Video editor & maker.",
+    "size": 130,
+    "reviews": 5000000,
+    "ratingAvg": 4.7,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 4770000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "./assets/threads.png",
+    "title": "Threads",
+    "companyName": "Meta",
+    "description": "Text-based conversation platform.",
+    "size": 60,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "./assets/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Chat & secure messaging app.",
+    "size": 90,
+    "reviews": 4000000,
+    "ratingAvg": 4.6,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "./assets/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Photos & short videos sharing.",
+    "size": 100,
+    "reviews": 3800000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 3330000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "./assets/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google",
+    "description": "Video streaming platform.",
+    "size": 180,
+    "reviews": 10000000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 9600000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "./assets/chrome.png",
+    "title": "Google Chrome",
+    "companyName": "Google",
+    "description": "Web browser & Internet app.",
+    "size": 210,
+    "reviews": 8000000,
+    "ratingAvg": 4.7,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 7500000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "./assets/google-maps.png",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "description": "Maps & navigation app.",
+    "size": 140,
+    "reviews": 7000000,
+    "ratingAvg": 4.8,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 35000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 6650000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "./assets/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies",
+    "description": "Ride hailing & delivery service.",
+    "size": 160,
+    "reviews": 5000000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 4400000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "./assets/subway.png",
+    "title": "Subway Surfers",
+    "companyName": "Kiloo / SYBO",
+    "description": "Endless runner arcade game.",
+    "size": 120,
+    "reviews": 4500000,
+    "ratingAvg": 4.6,
+    "downloads": 198000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 4400000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "./assets/pinterest.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Image & idea discovery app.",
+    "size": 100,
+    "reviews": 2500000,
+    "ratingAvg": 4.3,
+    "downloads": 450000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  }
+]
