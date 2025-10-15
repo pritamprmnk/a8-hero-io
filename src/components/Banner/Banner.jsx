@@ -3,7 +3,7 @@ import React from 'react'
 const Banner = () => {
   return (
     <div>
-    <section className="bg-gray-50 py-16 text-center">
+    <section className="bg-gray-100 py-16 text-center">
       <div className="max-w-4xl mx-auto px-6">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
           We Build <br /><span className="text-purple-600">Productive</span> Apps

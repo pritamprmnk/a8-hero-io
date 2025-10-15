@@ -25,6 +25,7 @@ const AppNotFound = () => {
         The App you are requesting is not found on our system. Please try another app.
       </p>
 
+
       <button 
         onClick={goHome}
         className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition duration-300"

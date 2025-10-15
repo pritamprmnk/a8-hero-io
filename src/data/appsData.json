@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "./assets/chatgpt2.png",
+    "image": "/assets/chatgpt2.png",
     "title": "ChatGPT",
     "companyName": "OpenAI",
     "description": "AI-powered conversational assistant.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "./assets/tiktok1.png",
+    "image": "/assets/tiktok1.png",
     "title": "TikTok",
     "companyName": "ByteDance",
     "description": "Short video sharing social platform.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "./assets/instagram.png",
+    "image": "/assets/instagram.png",
     "title": "Instagram",
     "companyName": "Meta",
     "description": "Photo & video sharing social network.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "./assets/facebook.png",
+    "image": "/assets/facebook.png",
     "title": "Facebook",
     "companyName": "Meta",
     "description": "Social networking app.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "./assets/whatsapp.png",
+    "image": "/assets/whatsapp.png",
     "title": "WhatsApp",
     "companyName": "Meta",
     "description": "Messaging & voice/video calls.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "./assets/temu.png",
+    "image": "/assets/temu.png",
     "title": "Temu",
     "companyName": "PDD Holdings",
     "description": "Shopping & deals platform.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "./assets/capcut.png",
+    "image": "/assets/capcut.png",
     "title": "CapCut",
     "companyName": "Bytedance",
     "description": "Video editor & maker.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "./assets/threads.png",
+    "image": "/assets/threads.png",
     "title": "Threads",
     "companyName": "Meta",
     "description": "Text-based conversation platform.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "./assets/telegram.png",
+    "image": "/assets/telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "description": "Chat & secure messaging app.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "./assets/snapchat.png",
+    "image": "/assets/snapchat.png",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "description": "Photos & short videos sharing.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "./assets/youtube.png",
+    "image": "/assets/youtube.png",
     "title": "YouTube",
     "companyName": "Google",
     "description": "Video streaming platform.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "./assets/chrome.png",
+    "image": "/assets/chrome.png",
     "title": "Google Chrome",
     "companyName": "Google",
     "description": "Web browser & Internet app.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "./assets/google-maps.png",
+    "image": "/assets/instagram.png",
     "title": "Google Maps",
     "companyName": "Google",
     "description": "Maps & navigation app.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "./assets/uber.png",
+    "image": "/assets/uber.png",
     "title": "Uber",
     "companyName": "Uber Technologies",
     "description": "Ride hailing & delivery service.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "./assets/subway.png",
+    "image": "/assets/subway.png",
     "title": "Subway Surfers",
     "companyName": "Kiloo / SYBO",
     "description": "Endless runner arcade game.",
@@ -271,7 +271,7 @@
   },
   {
     "id": 16,
-    "image": "./assets/pinterest.png",
+    "image": "/assets/pinterest.png",
     "title": "Pinterest",
     "companyName": "Pinterest, Inc.",
     "description": "Image & idea discovery app.",

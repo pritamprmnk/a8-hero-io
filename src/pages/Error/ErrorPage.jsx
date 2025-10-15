@@ -10,14 +10,16 @@ const ErrorPage = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
+
+
       {/* Image */}
       <img 
-        src="./assets/error-404.png" // Update this path as per your setup
+        src="./assets/error-404.png"
         alt="App Not Found" 
         className="max-w-sm mb-8"
       />
 
-      {/* Text */}
+
       <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2 text-center">
         Oops, page not found!
       </h1>
@@ -26,7 +28,8 @@ const ErrorPage = () => {
         The page you are looking for is not available.
       </p>
 
-      {/* Button */}
+ 
+ 
       <button 
         onClick={goHome}
         className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded transition duration-300"
