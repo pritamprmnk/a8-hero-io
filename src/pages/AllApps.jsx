@@ -14,6 +14,7 @@ export default function AllApplications() {
       return;
     }
 
+    
     setLoading(true);
     const delay = setTimeout(() => {
       const foundApps = appsData.filter((app) =>
