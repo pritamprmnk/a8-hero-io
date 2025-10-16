@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import {
   BarChart,
   Bar,
@@ -14,16 +14,29 @@ import { Star, Eye, Download } from "lucide-react";
 
 const AppDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
+
   const [app, setApp] = useState(null);
   const [isInstalled, setIsInstalled] = useState(false);
   const [loading, setLoading] = useState(true);
 
-
   useEffect(() => {
     setLoading(true);
     const timer = setTimeout(() => {
+
+
       const selectedApp = appsData.find((item) => item.id === parseInt(id));
+
+
+
+      if (!selectedApp) {
+        navigate("/appnotfound");
+        return;
+      }
+
       setApp(selectedApp);
+
+
 
       const installedApps =
         JSON.parse(localStorage.getItem("installedApps")) || [];
@@ -33,9 +46,9 @@ const AppDetails = () => {
       setIsInstalled(alreadyInstalled);
       setLoading(false);
     }, 800);
-    return () => clearTimeout(timer);
-  }, [id]);
 
+    return () => clearTimeout(timer);
+  }, [id, navigate]);
 
   const handleInstall = () => {
     let installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
@@ -61,27 +74,16 @@ const AppDetails = () => {
     );
   }
 
-  if (!app) {
-    return (
-      <div className="flex justify-center items-center h-screen text-lg text-gray-500">
-        App Not Found
-      </div>
-    );
-  }
+  if (!app) return null;
 
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4 md:px-12">
-
-
-
       <div className="flex flex-col md:flex-row items-center bg-white rounded-xl shadow-md p-6">
         <img
           src={app.image}
           alt={app.title}
           className="w-28 h-28 object-contain mb-4 md:mb-0 md:mr-8"
         />
-
-
 
         <div className="flex-1 space-y-3">
           <h1 className="text-2xl font-semibold text-gray-900">{app.title}</h1>
@@ -120,10 +122,10 @@ const AppDetails = () => {
 
 
 
-
-      {/* Chart*/}
       <div className="mt-10 bg-white p-6 rounded-xl shadow-md">
-        <h2 className="text-lg text-green-600 font-semibold mb-4">User Ratings</h2>
+        <h2 className="text-lg text-green-600 font-semibold mb-4">
+          User Ratings
+        </h2>
         <div className="h-64 w-full">
           <ResponsiveContainer width="100%" height="100%">
             <BarChart data={app.ratings}>
@@ -136,11 +138,10 @@ const AppDetails = () => {
         </div>
       </div>
 
-
-
-
       <div className="mt-10 bg-white p-6 rounded-xl shadow-md">
-        <h2 className="text-lg text-green-600 font-semibold mb-3">Description</h2>
+        <h2 className="text-lg text-green-600 font-semibold mb-3">
+          Description
+        </h2>
         <p className="text-gray-600 leading-relaxed">{app.description}</p>
       </div>
     </div>

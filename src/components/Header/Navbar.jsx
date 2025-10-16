@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-4 py-4 bg-white shadow-sm">
 
-      {/* logo */}
+
       <a href="/" className="flex items-center space-x-2">
         <img src="/assets/logo.png" alt="Hero.io Logo" className="h-8 w-8" />
         <span className="font-semibold text-lg text-purple-600">HERO.IO</span>
@@ -83,7 +83,7 @@ export default function Navbar() {
       </button>
       
  
- 
+
       {/* Mobile Menu */}
       {isOpen && (
         <div className="flex flex-col space-y-4 mt-4 w-full md:hidden">
