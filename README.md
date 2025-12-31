@@ -1,5 +1,17 @@
-App Name : Hero IO
+Project Name : Hero IO
 
+🌐Live Link : https://pk-hero-io.netlify.app/
 
-App Description :
-This responsive web application is a dynamic app store interface built with modern web technologies. It features an interactive layout with pages for Home, All Apps, App Details, and My Installations. Users can explore a collection of apps, view details with charts, and install or uninstall apps using localStorage. The app includes live search, sorting by downloads, and real-time toast feedback. Smooth navigation and loading animations enhance the user experience. Each route is error-free and optimized for production, with a professional design, responsive layout, and GitHub contribution link for easy collaboration.
+📌Project Overview :
+Hero IO is a responsive and modern web application that simulates a dynamic app store experience. Users can explore apps, view detailed information with charts, and install or uninstall apps using localStorage. The app includes live search, sorting by download count, real-time toast notifications, smooth navigation, and loading animations. Each route is optimized for production with a clean, professional, and fully responsive UI.
+
+🛠️Tech Stack :
+• React
+• JavaScript (ES6+)
+• Tailwind CSS
+• HTML5
+• CSS3
+• localStorage
+• React Router
+• Chart Library (Recharts / Chart.js)
+• React Hot Toast
